@@ -7,14 +7,31 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Queens Attack</title>
+    <title>Coin combinations</title>
 </head>
 <body>
     <div class ="container">
         <h1>Coin</h1>
 
-    
-    </div><!--ending container-->
+
+              <form id="coin">
+                <div class="form-group">
+                  <label for="change">Enter in your money:</label>
+                  <input id="change" type="text" >
+                </div>
+
+                <button type="submit" class="btn">Change</button>
+              </form>
+
+              <div class="result">
+                <p>Here your change back:</p>
+                <ul>
+                    <li id="pennies"></li>
+                    <li id="nickels"></li>
+                    <li id="dimes"></li>
+                    <li id="quarters"></li>
+                </ul>
+             </div>
 
 </body>
 </html>
